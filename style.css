@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #8fbd9a;
+    --cor1: #404040;
+    --cor2: #5aad82;
+    --cor3: #dddddd;
+    --cor4: black;
+    --cortexto: ;
+}
+* { padding: 0%;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+* a {text-decoration: none;
+color: black;}
+
+body {
+    background-color:var(--cor0);
+
+}
+header {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    
+}
+header > a > img {
+    width: 200px;
+    margin-bottom: -10px;
+}
+img.fotoredonda { 
+    width: 100px;
+    margin-right: 60px;
+}
+
+header > p {
+    text-align: center;
+    font-size: 1,2pt;
+    margin-right: 130px;
+}
+
+.redes {
+    width: 40px;
+    right:100px;
+    margin-bottom: 3px;
+
+}
+
+nav {
+    background-color:var(--cor2);
+    padding: 10px;
+    width: 980px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+nav > a {
+    background-color:var(--cor2);
+    color:black;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+nav > a:hover {
+    background-color: var(--cor0);
+    font-weight: bold;
+    color:var(--cor4);
+}
+main {
+    background-color:var(--cor0);
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+article { width: 500px;
+height: 400px;
+padding: 30px;
+text-align: justify;}
+
+article > h1 {
+    text-align: center;
+}
+article > p {
+    padding: 10px;
+}
+
+#conjunto {
+    display: flex;
+}
+div > div:hover {
+    background-color:var(--cor2);
+    color:var(--cor3);
+}
+div > div:hover {
+    color:#5aad82;
+    font-weight: bold;
+}
+.coluna {
+    width: 300px;
+    height: 80px;
+    background-color:var(--cor0);
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px;
+}
+.janela {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+}
+figcaption {position: absolute;
+bottom: 10px;
+left: 15px;
+text-decoration: dotted;
+color:white;
+font-weight: bold;
+font-size: 3ch;}
+
+footer {
+    background-color: var(--cor1);
+    width: 1000px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
